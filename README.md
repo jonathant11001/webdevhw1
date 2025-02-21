@@ -41,9 +41,9 @@ PART 2 Mobile-Friendly Design
 
    [ ] Make sure the website works well on phones and tablets (use CSS media queries).
  
-    Hint: Make use of hamburger menus and stacking.
+   Hint: Make use of hamburger menus and stacking.
  
-    Please use the attached image only as a reference, you are free to be as creative as possible.
+   Please use the attached image only as a reference, you are free to be as creative as possible.
 
 Submission
 
