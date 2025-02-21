@@ -19,7 +19,7 @@ Project Requirements
 
 4. Image Gallery
 
-   [ ] Show at least six pictures of food or the restaurant interior. The images in the gallery should be displayed as a slider.
+   [X] Show at least six pictures of food or the restaurant interior. The images in the gallery should be displayed as a slider.
 
 5. About Section
 
