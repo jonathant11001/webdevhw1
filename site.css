@@ -95,6 +95,71 @@ nav ul li a {
     font-size: 25px;
 }
 
+.Menu nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.Menu li {
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+    flex: 1 1 45%;
+    margin: 10px;
+    max-width: 200px;
+}
+
+.Menu li:hover {
+    transform: translateY(-5px);
+}
+
+.Menu li span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Menu img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.About_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.About_image img {
+    width: 30%;
+    height: auto;
+    display: block;
+}
+
+.About_paragraph{
+    border: 3px solid orange;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
 .Contact {
     display: flex;
     justify-content: center;
