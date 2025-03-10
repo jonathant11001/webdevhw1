@@ -47,4 +47,4 @@ PART 2 Mobile-Friendly Design
 
 Submission
 
-   - [ ] Find any free hosting sites to host your application and submit the links to the hosted web pages. Also submit two screenshots showing the homepage of your website on both a mobile device and a laptop or desktop device.
+   - [X] Find any free hosting sites to host your application and submit the links to the hosted web pages. Also submit two screenshots showing the homepage of your website on both a mobile device and a laptop or desktop device. Site: https://jonathant11001.github.io/webdevhw1/Home
