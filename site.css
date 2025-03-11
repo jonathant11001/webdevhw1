@@ -5,6 +5,7 @@ body {
     color: white;
 }
 
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -40,6 +41,7 @@ nav ul li a {
     font-size: 18px;
 }
 
+/* HERO SECTION */
 .hero {
     display: flex;
     align-items: center;
@@ -95,6 +97,7 @@ nav ul li a {
     font-size: 25px;
 }
 
+/* MENU SECTION*/
 .Menu nav{
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +139,7 @@ nav ul li a {
     display: block;
 }
 
+/* ABOUT SECTION */
 .About_image {
     display: flex;
     justify-content: center;
@@ -160,6 +164,7 @@ nav ul li a {
     line-height: 1.6;
 }
 
+/* CONTACT SECTION */
 .Contact {
     display: flex;
     justify-content: center;
@@ -218,7 +223,7 @@ button:hover {
     background-color: #b71c1c;
 }
 
-
+/*FOOTER*/
 footer {
     background-color: black;
     color: white;
@@ -285,4 +290,157 @@ footer {
 .fa-yelp {
     background: #ff6600;
     color: white;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 20px;
+    }
+
+    .logo {
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .body_logo {
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .body_logo img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .welcome-text {
+        width: 90%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .welcome-text h1 {
+        font-size: 32px;
+    }
+
+    .welcome-text p {
+        font-size: 18px;
+    }
+
+    /* MENU SECTION*/
+    .Menu nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Menu li {
+        max-width: 90%;
+        width: 100%;
+    }
+
+    /* ABOUT SECTION */
+    .About_image img {
+        width: 80%;
+    }
+
+    .About_paragraph {
+        width: 90%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    /* CONTACT SECTION */
+    .Contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .contact-form {
+        width: 90%;
+        max-width: 400px;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        width: 95%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    /* FOOTER */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .business-hours ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .fa {
+        padding: 12px;
+        font-size: 20px;
+    }
 }
