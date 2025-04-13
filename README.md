@@ -1,6 +1,32 @@
 Instructions
 Restaurant Website Project
 
+Homework Two:
+
+Objective:
+For this assignment, you will enhance the restaurant website by implementing a shopping cart feature.
+
+Project Requirements:
+1. Add Items to the Cart
+   
+   - [X] When a user clicks on a food item in the menu, it should be added to their shopping cart.
+   
+2. View the Cart
+
+   - [X] The shopping cart should display the selected items, including their names, prices, and quantities.
+
+3. Remove Items from the Cart
+
+   - [X] Users should be able to remove items from the shopping cart if they change their minds.
+
+Extra Credit:
+
+   - [X] Add a cart total price calculation and a clear cart option.
+
+
+
+Homework One:
+
 Objective:
 Create a simple restaurant website with a menu, gallery, and contact page.
 
