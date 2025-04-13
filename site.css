@@ -98,6 +98,80 @@ nav ul li a {
 }
 
 /* MENU SECTION*/
+.Shopping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #111;
+    position: relative;
+}
+
+.Shopping h2 {
+    margin: 0;
+}
+
+.Shopping p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.cart-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.cart-wrapper {
+    position: relative;
+}
+
+#cart-icon {
+    font-size: 24px;
+    color: white;
+    margin-right: 8px;
+}
+
+#cart-icon:hover {
+    color: #aaa;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #222;
+    max-width: 300px;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    display: none;
+    color:#000
+}
+
+#cart-items.active {
+    display: block;
+}
+
+.remove-all-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.remove-all-btn:hover {
+    background: none;
+    border: none;
+    color: red;
+}
+
 .Menu nav{
     display: flex;
     flex-wrap: wrap;
@@ -120,11 +194,15 @@ nav ul li a {
     max-width: 200px;
 }
 
-.Menu li:hover {
-    transform: translateY(-5px);
+.Menu li span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
 }
 
-.Menu li span {
+.Menu li p {
     display: block;
     font-size: 16px;
     font-weight: bold;
@@ -134,7 +212,7 @@ nav ul li a {
 
 .Menu img {
     width: 100%;
-    height: auto;
+    height: 140px;
     border-radius: 10px;
     display: block;
 }
@@ -363,6 +441,28 @@ footer {
     }
 
     /* MENU SECTION*/
+    .Shopping {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Shopping h2, 
+    .Shopping p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cart-icon-container {
+        justify-content: center;
+    }
+
+    #cart-items {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+    }
+
     .Menu nav {
         flex-direction: column;
         align-items: center;
